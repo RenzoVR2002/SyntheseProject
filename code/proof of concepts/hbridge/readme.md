@@ -6,8 +6,8 @@ minimale hard- & software die aantoont dat 2 motoren onafhankelijk van elkaar ku
 const int STBY = 8;
 const int AIN1 = 9;
 const int AIN2 = 10;
-const int BIN1 = 11;
-const int BIN2 = 12;
+const int BIN1 = 2;
+const int BIN2 = 3;
 
 void setup() {
   pinMode(STBY, OUTPUT);
