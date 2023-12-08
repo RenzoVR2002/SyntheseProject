@@ -9,6 +9,6 @@
 |         4|DRV-8833|H-Brug|nieuw|              2,85|      1|         2,85|
 |         5|Arduino 8-Channel Infrared detector hurt module 8bit sensor module|Sensor|nieuw|1,24| 1|1,24|
 |         6|HC-05|Communicatie|nieuw|2,20|      1|         2,20|
-|         7|Breadboard|Verbindingspaneel|nieuw|2,98|      1|         2,98|
-|         8|Onderplaat|PlexiGlas|Recup|0|      1|         0|
-|         9|Dupondraadjes|Verbindingsdraadjes|Nieuw|3,22|      1 pakje|         3,22|
+|         7|Breadboard|-|nieuw|2,98|      1|         2,98|
+|         8|PlexiGlas|Onderplaat|Recup|0|      1|         0|
+|         9|Dupondraadjes|-|Nieuw|3,22|      1 pakje|         3,22|
