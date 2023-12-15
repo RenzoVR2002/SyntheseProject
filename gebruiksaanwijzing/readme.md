@@ -2,6 +2,8 @@
 
 ### opladen / vervangen batterijen
 De Li-Ion batterijen zijn simpel op te laden met een oplaadstation
+Dat kan adhv van onderstaand voorbeeld.
+https://www.bol.com/nl/nl/p/kimo-direct-batterijoplader-complete-set-lader-3-lithium-li-ion-18650-batterijen-power-charger-universeel-aa-aaa-18500-18650-etc-compatibel-met-vele-rechargeable-batteries-10440-14500-16340-16650-18350-18500-18650-26650/9300000003344982/
 
 ### draadloze communicatie
 #### verbinding maken
