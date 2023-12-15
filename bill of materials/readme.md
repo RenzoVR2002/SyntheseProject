@@ -13,3 +13,5 @@
 |         8|PlexiGlas|Onderplaat 10-6 cm|Recup|0|      1|         0|
 |         9|Dupondraadjes|-|Nieuw|3,22|      1 pakje|         3,22|
 |         10|Plastiek houdertje|Hulp om sensor aan robot vast te maken|Recup|0|      1 |       0|
+|         11|Battery Clip 18650|Batterijhouder|Nieuw|0,91|      1 |       0,91|
+
