@@ -7,10 +7,12 @@
 SerialCommand sCmd(SerialPort);
 bool debug;
 unsigned long previous, calculationTime;
-
+const int sensor[] = {A5, A4, A3, A2, A1, A0};
 struct param_t
 {
   unsigned long cycleTime;
+  int black[6];
+  int white[6];
   /* andere parameters die in het eeprom geheugen moeten opgeslagen worden voeg je hier toe ... */
 } params;
 
@@ -21,6 +23,7 @@ void setup()
   sCmd.addCommand("set", onSet);
   sCmd.addCommand("debug", onDebug);
   sCmd.setDefaultHandler(onUnknownCommand);
+  sCmd.addCommand("calibrate",onCalibrate);
 
   EEPROM_readAnything(0, params);
 
@@ -37,6 +40,11 @@ void loop()
   {
     previous = current;
 
+    SerialPort.print("  Values: ");
+    for ( int i = 0; i < 6;i++)
+    {
+     SerialPort.print(analogRead(sensor[i]));
+   SerialPort.print(" ");
     /* code die cyclisch moet uitgevoerd worden programmeer je hier ... */
   }
 
@@ -73,3 +81,19 @@ void onDebug()
   SerialPort.println(calculationTime);
   calculationTime = 0;
 }
+void onCalibrate()
+{
+  char* param = sCmd.next();
+
+  if (strcmp(param, "black") == 0)
+  {
+    SerialPort.print("start calibrating black... ");
+    for (int i = 0; i < 6; i++) params.black[i]=analogRead(sensor[i]);
+    SerialPort.println("done");
+  }
+  else if (strcmp(param, "white") == 0)
+  {
+    SerialPort.print("start calibrating white... ");    
+    for (int i = 0; i < 6; i++) params.white[i]=analogRead(sensor[i]);  
+    SerialPort.println("done");      
+  }  }
