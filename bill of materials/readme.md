@@ -10,5 +10,6 @@
 |         5|Arduino 8-Channel Infrared detector hurt module 8bit sensor module|Sensor|nieuw|1,24| 1|1,24|
 |         6|HC-05|Communicatie|nieuw|2,20|      1|         2,20|
 |         7|Breadboard|-|nieuw|2,98|      1|         2,98|
-|         8|PlexiGlas|Onderplaat|Recup|0|      1|         0|
+|         8|PlexiGlas|Onderplaat 10-6 cm|Recup|0|      1|         0|
 |         9|Dupondraadjes|-|Nieuw|3,22|      1 pakje|         3,22|
+|         10|Plastiek houdertje|Hulp om sensor aan robot vast te maken|Recup|0|      1 |       0|
